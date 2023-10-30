@@ -43,22 +43,22 @@ function renderLicenseBadge(license) {
   
   ## Installation
   
-  // TODO: You'll probably want to prompt the user for installation steps or provide default ones
+  ${data.installation}
   
   ## Usage
   
-  // TODO: You'll probably want to prompt the user for usage instructions or provide default ones
+  ${data.usage}
   
   ## License
   ${data.license !== 'None' ? `This project is licensed under the ${renderLicenseLink(data.license)}.` : `This project doesn't have a license.`}
   
   ## Contributing
   
-  // TODO: You'll probably want to prompt the user for contribution guidelines or provide default ones
+  ${data.contributing}
   
   ## Tests
   
-  // TODO: You'll probably want to prompt the user for testing instructions or provide default ones
+  ${data.test}
   
   ## Questions
   
